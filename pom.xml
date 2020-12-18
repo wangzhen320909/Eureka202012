@@ -66,6 +66,12 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>1.5.9.RELEASE</version>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -94,6 +100,8 @@
     <modules>
         <module>eureka-first</module>
         <module>eureka-second</module>
+        <module>eureka-third</module>
+        <module>custom-first</module>
     </modules>
 
 

@@ -1,0 +1,15 @@
+
+server:
+  port: 3001
+
+spring:
+  application:
+    name: custom-first
+
+eureka:
+  instance:
+#    hostname: custom-first
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:2001/eureka/,http://eureka2.com:2002/eureka/,http://eureka3.com:2003/eureka/
